@@ -57,7 +57,7 @@ class AddNote extends Component {
       }
       //console.log('pics*******',[...pic])
       //fd.append('pic',[...pic])
-      console.log(fd)
+      //console.log(fd)
       this.props.dispatch(startAddNote(fd))
       this.setState({
         title: '',
